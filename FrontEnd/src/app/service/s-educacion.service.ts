@@ -7,9 +7,8 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  /**eduURL = 'https://pintegradorarc.herokuapp.com/edu/';**/
 
-  eduURL='http://localhost:8080/edu/';
+  eduURL='https://bckndasm.herokuapp.com/edu/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Educacion[]>{

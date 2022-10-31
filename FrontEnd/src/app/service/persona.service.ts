@@ -8,10 +8,8 @@ import { Persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  
-  /**URL = 'https://pintegradorarc.herokuapp.com/persona/';**/
 
-  perURL = 'http://localhost:8080/per/';
+  perURL = 'https://bckndasm.herokuapp.com/per/';
 
   constructor(private httpCliente: HttpClient) { }
 
